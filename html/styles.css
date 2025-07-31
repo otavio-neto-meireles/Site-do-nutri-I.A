@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+     font-family: 'Poppins', sans-serif;
+ 
 }
 
 section {
@@ -78,6 +79,9 @@ button {
     max-width: 50%;
 }
 
+.about .left ul {
+    margin-left: 30px;
+}
 .about .right {
     max-width: 40%;
 }
@@ -98,9 +102,9 @@ button {
     max-width: 400px;
 }
 
-.contact input, 
+.contact input,
 .contact textarea {
-     resize: none;
+    resize: none;
     width: 100%;
     padding: 12px 16px;
     border: 1px solid #ccc;
@@ -116,4 +120,34 @@ button {
     border-color: #5b2d6d;
     background-color: #fff;
     box-shadow: 0 0 8px rgba(91, 45, 109, 0.2);
+}
+
+.botao-form {
+    text-align: center; /*usado para botao e texto */
+}
+
+.footer {
+    background-color: #1f102b;
+    color: #ffffff;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.social-icons i {
+    font-size: 28px;
+    margin-right: 12px;
+    color: #dcbaf7;
+    margin-top: 10px;
+}
+
+.footer .powered {
+    background-color: #1f102b;
+    text-align: center;
+    padding: 10px;
+    color: rgb(189, 134, 240);
 }
